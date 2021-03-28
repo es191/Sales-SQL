@@ -54,7 +54,7 @@ SELECT CONCAT (CONCAT (initcap ('this is our customer:'), upper (buyer)),
             	CONCAT (lower(' the number of contract is: '), contract )) as information
 FROM sales 
 
-SELECT * FROm sales
+SELECT * FROM sales
 WHERE MOD(price_of_orders, 2) =0 
 OR price_of_orders < 3500
 
